@@ -47,6 +47,7 @@ before_script:
 script:
 - pushd $TRAVIS_BUILD_DIR
 - make all -j2
+
 deploy:
   provider: pages
   skip_cleanup: true
