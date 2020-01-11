@@ -1,0 +1,5 @@
+QMAKE_PRL_BUILD_DIR = /home/travis/build/zhaosijun/cutedriver-visualizer/libtdrivereditor
+QMAKE_PRO_INPUT = libtdrivereditor.pro
+QMAKE_PRL_TARGET = libtdrivereditor.so.1.0.0
+QMAKE_PRL_CONFIG = lex yacc exceptions depend_includepath testcase_targets import_plugins import_qpa_plugin file_copies qmake_use qt warn_on release link_prl incremental shared release c++11 linux unix posix gcc no_webkit no_mobility shared create_prl link_prl have_target dll thread uic opengl moc resources
+QMAKE_PRL_VERSION = 1.0.0
